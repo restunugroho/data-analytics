@@ -11,9 +11,9 @@ Each row in the dataset represents an **event** in the lifecycle of a food order
 ### 🔑 Key Columns:
 - `order_id`: Unique identifier for each order.
 - `outlet_name`: The outlet where the order was placed (only available during order creation).
-- `location`: The geographical location of the outlet (only available during order creation).
+- `location`: The location name of the outlet (only available during order creation).
 - `menu_item`: Item that was ordered (only available during order creation).
-- `order_type`: Type of order (e.g., app, offline) — available only when status is `created`.
+- `order_type`: Type of order (e.g., apps, offline) — available only when status is `created`.
 - `status`: Current status of the order.
 - `timestamp`: Timestamp indicating when the event occurred.
 
